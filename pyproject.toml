@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "krewi1", email = "kratochvilp@post.cz"},
 ]
-dependencies = ["fastapi[standard]>=0.115.6", "MetaTrader5>=5.0.4738"]
+dependencies = ["fastapi[standard]>=0.115.6", "MetaTrader5>=5.0.4738", "dotenv>=0.0.5", "python-dotenv>=1.0.1"]
 requires-python = "==3.13.*"
 readme = "README.md"
 license = {text = "MIT"}
